@@ -1,0 +1,45 @@
+.result-card {
+    background: #232A34;
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-block: 150px;
+    padding: 25px;
+    border-radius: 20px;
+    gap: 20px;
+}
+
+.icon {
+    width: 144px;
+    height: 96px;
+}
+
+.result {
+    background: #262E38;
+    width: 168px;
+    color: #FC7614;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 1200px) {
+    .result-card {
+        width: 360px;
+        gap: 40px;
+    }
+
+    .icon {
+        width: 162px;
+        height: 108px;
+    }
+
+    .result {
+        width: 193px;
+        font-size: 15px;
+    }
+}

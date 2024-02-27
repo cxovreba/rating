@@ -1,0 +1,28 @@
+.btn {
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 42px;
+    background: #262E38;
+    color: #7C8798;
+    width: 42px;
+    height: 42px;
+    border: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .btn {
+        width: 51px;
+        height: 51px;
+        font-size: 16px;
+    }
+
+    .btn:hover {
+        background: #FC7614;
+        color: #FFFFFF;
+    }
+
+    .btn:focus {
+        background: #7C8798;
+        color: #FFFFFF;
+    }
+}

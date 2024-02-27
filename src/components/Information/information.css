@@ -1,0 +1,14 @@
+.text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #969FAD;
+    margin: 0;
+    width: 279px;
+}
+
+@media screen and (min-width: 1200px) {
+    .text {
+        font-size: 15px;
+        width: 340px;
+    }
+}
